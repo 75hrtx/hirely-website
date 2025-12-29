@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hirely! | User Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reuse same CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Hirely<span>!</span></div>
+</header>
+
+<section class="hero">
+    <h1>User Login</h1>
+    <p>Please login to continue</p>
+
+    <!-- login box -->
+    <div style="
+        max-width: 350px;
+        margin: 40px auto;
+        background: #1f2933;
+        padding: 30px;
+        border-radius: 10px;
+    ">
+        <input type="text" id="username" placeholder="Username"
+               style="width:100%; padding:12px; margin:10px 0;">
+
+        <input type="password" id="password" placeholder="Password"
+               style="width:100%; padding:12px; margin:10px 0;">
+
+        <button onclick="login()">Login</button>
+
+        <p id="error" style="color:#f87171; margin-top:10px;"></p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
